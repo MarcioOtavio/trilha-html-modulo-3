@@ -33,6 +33,41 @@ a { color:blue; text-decoration: none;}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: first baseline;
+    background-image: url(https://wallpapercave.com/wp/wp6949149.jpg);
+    
+    
+}
 figure {
     text-align: center;
+}
+h1 {
+    margin-top: 15px;
+    margin-left: 80px;
+    display:flex;
+    position: right;
+}
+p {
+    text-align: justify;
+}
+h4 {
+    text-align: justify;
+}
+#mutley {
+    border-radius: 20%;
+    border:dotted;
+    margin-left:250px;
+}
+#caricatura {
+    margin-left:250px;  
+}
+#imagens {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between ;
 }
