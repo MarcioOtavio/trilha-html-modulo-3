@@ -66,8 +66,23 @@ h4 {
     margin-left:250px;  
 }
 #imagens {
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
    justify-content: space-between ;
+}
+#gif {
+    border-radius: 30%;
+    border: double;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#aprovacao {
+    border-radius: 20%;
+    margin-left: 70px;
+    
+}
+aprovação {
+    color: green;
 }
